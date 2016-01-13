@@ -1,0 +1,47 @@
+#map {
+  padding: 20px;
+  height: 100%;
+}
+
+.hidden { 
+  display: none; 
+}
+
+.country {
+  fill: #F3DEB2;
+  stroke: #42BADC;
+  stroke-width: .5px;
+}
+
+.country:hover {
+	stroke: #FFF;
+  stroke-width: 2px;
+}
+
+div.tooltip {
+  color: #222; 
+  background: #fff; 
+  padding: .5em; 
+  text-shadow: #f5f5f5 0 1px 0;
+  border-radius: 2px; 
+  box-shadow: 0px 0px 2px 0px #a6a6a6; 
+  opacity: 0.9; 
+  position: absolute;
+}
+
+div.info {
+  background: #fff;
+  color: #222;
+  padding: .5em; 
+  text-shadow: #f5f5f5 0 1px 0;
+  border-radius: 2px; 
+  box-shadow: 0px 0px 2px 0px #a6a6a6; 
+  opacity: 0.9; 
+  position: absolute;
+}
+
+div.info .res-name {
+  color: #fff;
+  background-color: gray;
+  font-weight: 600;
+}
