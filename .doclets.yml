@@ -1,0 +1,4 @@
+dir: lib
+branches:
+ 	- master
+ 	- doclets
